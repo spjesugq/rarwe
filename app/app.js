@@ -4,6 +4,8 @@ import loadInitializers from 'ember-load-initializers';
 import config from 'rarwe/config/environment';
 import { importSync, isDevelopingApp, macroCondition } from '@embroider/macros';
 import 'rarwe/app.css';
+import 'rarwe/font-awesome';
+
 
 if (macroCondition(isDevelopingApp())) {
   importSync('./deprecation-workflow');
